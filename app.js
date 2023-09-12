@@ -30,12 +30,18 @@
 //     document.write("<h2>Ceiling Value: " + ceilValue + "</h2>");
 //   }
 
-// q#3
-var userInput = +prompt("Enter a number:");
-if (isNaN(userInput)) {
-    alert("Please enter a valid number.");
-} else {
-    // Calculate the absolute value
-    const absoluteValue = Math.abs(userInput); 
-    alert(`The absolute value of ${userInput} is ${absoluteValue}`);
-}
+// // q#3
+// var userInput = +prompt("Enter a number:");
+// if (isNaN(userInput)) {
+//     alert("Please enter a valid number.");
+// } else {
+//     // Calculate the absolute value
+//     const absoluteValue = Math.abs(userInput); 
+//     alert(`The absolute value of ${userInput} is ${absoluteValue}`);
+// }
+
+// q#4
+var diceValue = Math.floor(Math.random() * 6) + 1;
+document.write(`<h1>Dice Roll Result: ${diceValue}</h1>`);
+
+
