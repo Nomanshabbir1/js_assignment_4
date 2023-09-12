@@ -41,7 +41,14 @@
 // }
 
 // q#4
-var diceValue = Math.floor(Math.random() * 6) + 1;
-document.write(`<h1>Dice Roll Result: ${diceValue}</h1>`);
+// var diceValue = Math.floor(Math.random() * 6) + 1;
+// document.write(`<h1>Dice Roll Result: ${diceValue}</h1>`);
+
+// q#5
+// var randomValue = Math.random();
+// var coinResult = randomValue < 0.5 ? "Heads" : "Tails";
+// document.write(`<h1>Coin Toss Result: ${coinResult}</h1>`);
+
+
 
 
