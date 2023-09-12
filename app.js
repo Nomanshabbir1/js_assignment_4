@@ -51,8 +51,18 @@
 
 // q#6
 
-var randomNumber = Math.floor(Math.random() * 100) + 1;
-var message = "Random Number between 1 and 100: " + randomNumber;
-document.write("<h1>" + message + "</h1>");
+// var randomNumber = Math.floor(Math.random() * 100) + 1;
+// var message = "Random Number between 1 and 100: " + randomNumber;
+// document.write("<h1>" + message + "</h1>");
+
+// // q#8
+// var secretNumber = Math.floor(Math.random() * 10) + 1;
+// var userGuess = +prompt("Guess the secret number (between 1 and 10):");
+// if (userGuess === secretNumber) {
+//   alert(`Congratulations! You guessed the secret number, which is ${secretNumber}.`);
+// } else {
+//   alert(`Sorry, the secret number was ${secretNumber}. Try again!`);
+// }
+
 
 
