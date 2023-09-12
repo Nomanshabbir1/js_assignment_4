@@ -49,6 +49,10 @@
 // var coinResult = randomValue < 0.5 ? "Heads" : "Tails";
 // document.write(`<h1>Coin Toss Result: ${coinResult}</h1>`);
 
+// q#6
 
+var randomNumber = Math.floor(Math.random() * 100) + 1;
+var message = "Random Number between 1 and 100: " + randomNumber;
+document.write("<h1>" + message + "</h1>");
 
 
